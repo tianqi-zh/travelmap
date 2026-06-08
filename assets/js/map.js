@@ -80,8 +80,13 @@
       item.className = "item";
       item.innerHTML =
         '<span class="swatch"></span>' +
-        '<span class="name">' + p.name + '</span>' +
-        '<span class="cnt">' + p.count + '</span>';
+        '<span class="info">' +
+          '<span class="row1">' +
+            '<span class="name">' + p.name + '</span>' +
+            '<span class="cnt">' + p.count + '</span>' +
+          '</span>' +
+          (p.dates ? '<span class="date">' + p.dates + '</span>' : '') +
+        '</span>';
       item.addEventListener("click", () => go(p.id));
       // 与地图标记联动高亮
       item.addEventListener("mouseenter", () => highlight(p.id, true));

@@ -42,8 +42,8 @@ LONG_MAX_W, LONG_CRF = 1920, 23
 
 # 城市坐标与展示名（id 必须等于 media/raw 下的文件夹名）
 PLACES = {
-    "dalian": {"name": "大连", "nameEn": "Dalian", "lat": 38.914, "lng": 121.615},
-    "jeju":   {"name": "济州", "nameEn": "Jeju",   "lat": 33.499, "lng": 126.531},
+    "dalian": {"name": "大连", "nameEn": "Dalian", "lat": 38.914, "lng": 121.615, "dates": "2026 06/05 ~ 06/08"},
+    "jeju":   {"name": "济州", "nameEn": "Jeju",   "lat": 33.499, "lng": 126.531, "dates": "2025 07/23 ~ 07/27"},
 }
 
 IMG_EXTS = {".jpg", ".jpeg", ".heic", ".heif", ".png"}
@@ -246,6 +246,7 @@ def build_city(city_id):
         "nameEn": meta["nameEn"],
         "lat": meta["lat"],
         "lng": meta["lng"],
+        "dates": meta.get("dates", ""),
         "cover": cover,
         "count": len(items),
         "items": items,
