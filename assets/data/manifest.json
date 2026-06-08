@@ -8,9 +8,147 @@
       "lat": 38.914,
       "lng": 121.615,
       "dates": "2026 06/05 ~ 06/08",
-      "cover": "media/dalian/IMG_6412.jpg",
-      "count": 6,
+      "cover": "media/dalian/IMG_6118.jpg",
+      "count": 33,
       "items": [
+        {
+          "type": "image",
+          "src": "media/dalian/IMG_6118.jpg",
+          "w": 2400,
+          "h": 1800,
+          "time": "2026-06-05 04:42:25 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/IMG_6126.jpg",
+          "w": 2400,
+          "h": 1800,
+          "time": "2026-06-05 08:15:15 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/IMG_6131.jpg",
+          "w": 2400,
+          "h": 1800,
+          "time": "2026-06-05 11:00:55 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/IMG_6132.jpg",
+          "w": 2400,
+          "h": 1800,
+          "time": "2026-06-05 11:25:57 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/IMG_6134.jpg",
+          "w": 2400,
+          "h": 1800,
+          "time": "2026-06-05 12:09:21 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2383.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-05 12:24:27 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/IMG_6139.jpg",
+          "w": 2400,
+          "h": 1800,
+          "time": "2026-06-05 12:25:22 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2395.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-05 12:44:37 +0000"
+        },
+        {
+          "type": "video",
+          "src": "media/dalian/IMG_6144.mp4",
+          "poster": "media/dalian/IMG_6144.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true,
+          "time": "2026-06-05 13:03:35 +0000"
+        },
+        {
+          "type": "video",
+          "src": "media/dalian/IMG_6146.mp4",
+          "poster": "media/dalian/IMG_6146.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true,
+          "time": "2026-06-05 13:04:31 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2419.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-05 13:44:03 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2421.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-05 14:05:53 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2422.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-05 14:05:56 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2423.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-05 14:05:59 +0000"
+        },
+        {
+          "type": "video",
+          "src": "media/dalian/IMG_6152.mp4",
+          "poster": "media/dalian/IMG_6152.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true,
+          "time": "2026-06-06 03:39:06 +0000"
+        },
+        {
+          "type": "video",
+          "src": "media/dalian/IMG_6159.mp4",
+          "poster": "media/dalian/IMG_6159.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true,
+          "time": "2026-06-06 04:36:15 +0000"
+        },
+        {
+          "type": "video",
+          "src": "media/dalian/IMG_6169.mp4",
+          "poster": "media/dalian/IMG_6169.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true,
+          "time": "2026-06-06 04:38:23 +0000"
+        },
+        {
+          "type": "video",
+          "src": "media/dalian/IMG_6189.mp4",
+          "poster": "media/dalian/IMG_6189.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true,
+          "time": "2026-06-06 04:41:44 +0000"
+        },
         {
           "type": "video",
           "src": "media/dalian/IMG_6412.mp4",
@@ -19,6 +157,69 @@
           "h": 1800,
           "live": true,
           "time": "2026-06-06 05:18:54 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2452.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-06 05:26:20 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2455.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-06 05:27:01 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2459.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-06 05:27:17 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2466.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-06 05:29:40 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2472.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-06 05:30:53 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2506.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-06 05:35:08 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2522.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-06 05:36:29 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2553.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-06 06:10:14 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/DSCF2571.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-06 06:24:13 +0000"
         },
         {
           "type": "video",
