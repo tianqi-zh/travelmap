@@ -8,22 +8,17 @@
       "lat": 38.914,
       "lng": 121.615,
       "dates": "2026 06/05 ~ 06/08",
-      "cover": "media/dalian/204572.jpg",
+      "cover": "media/dalian/IMG_6412.jpg",
       "count": 6,
       "items": [
-        {
-          "type": "image",
-          "src": "media/dalian/204572.jpg",
-          "w": 2400,
-          "h": 1600
-        },
         {
           "type": "video",
           "src": "media/dalian/IMG_6412.mp4",
           "poster": "media/dalian/IMG_6412.jpg",
           "w": 2400,
           "h": 1800,
-          "live": true
+          "live": true,
+          "time": "2026-06-06 05:18:54 +0000"
         },
         {
           "type": "video",
@@ -31,7 +26,8 @@
           "poster": "media/dalian/IMG_6505.jpg",
           "w": 2400,
           "h": 1800,
-          "live": true
+          "live": true,
+          "time": "2026-06-06 08:35:01 +0000"
         },
         {
           "type": "video",
@@ -39,7 +35,8 @@
           "poster": "media/dalian/IMG_6522.jpg",
           "w": 2400,
           "h": 1800,
-          "live": true
+          "live": true,
+          "time": "2026-06-07 00:41:12 +0000"
         },
         {
           "type": "video",
@@ -47,7 +44,8 @@
           "poster": "media/dalian/IMG_6545.jpg",
           "w": 2400,
           "h": 1800,
-          "live": true
+          "live": true,
+          "time": "2026-06-07 05:43:46 +0000"
         },
         {
           "type": "video",
@@ -55,7 +53,15 @@
           "poster": "media/dalian/IMG_6572.jpg",
           "w": 1080,
           "h": 1920,
-          "live": false
+          "live": false,
+          "time": "2026-06-07 08:54:44 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/dalian/204572.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2026-06-07 16:09:07 +0000"
         }
       ]
     },
@@ -73,93 +79,8 @@
           "type": "image",
           "src": "media/jeju/DSCF0392.jpg",
           "w": 2400,
-          "h": 1600
-        },
-        {
-          "type": "image",
-          "src": "media/jeju/DSCF0400.jpg",
-          "w": 2400,
-          "h": 1600
-        },
-        {
-          "type": "image",
-          "src": "media/jeju/DSCF0421.jpg",
-          "w": 2400,
-          "h": 1600
-        },
-        {
-          "type": "image",
-          "src": "media/jeju/DSCF0532.jpg",
-          "w": 2400,
-          "h": 1600
-        },
-        {
-          "type": "image",
-          "src": "media/jeju/DSCF0612.jpg",
-          "w": 2400,
-          "h": 1600
-        },
-        {
-          "type": "image",
-          "src": "media/jeju/DSCF0754.jpg",
-          "w": 2400,
-          "h": 1600
-        },
-        {
-          "type": "image",
-          "src": "media/jeju/DSCF0791.jpg",
-          "w": 2400,
-          "h": 1600
-        },
-        {
-          "type": "image",
-          "src": "media/jeju/DSCF0969.jpg",
-          "w": 2400,
-          "h": 1600
-        },
-        {
-          "type": "image",
-          "src": "media/jeju/DSCF1036.jpg",
-          "w": 2400,
-          "h": 1600
-        },
-        {
-          "type": "image",
-          "src": "media/jeju/DSCF1066.jpg",
-          "w": 2400,
-          "h": 1600
-        },
-        {
-          "type": "video",
-          "src": "media/jeju/IMG_0693.mp4",
-          "poster": "media/jeju/IMG_0693.jpg",
-          "w": 2400,
-          "h": 1800,
-          "live": true
-        },
-        {
-          "type": "video",
-          "src": "media/jeju/IMG_0707.mp4",
-          "poster": "media/jeju/IMG_0707.jpg",
-          "w": 2400,
-          "h": 1800,
-          "live": true
-        },
-        {
-          "type": "video",
-          "src": "media/jeju/IMG_0721.mp4",
-          "poster": "media/jeju/IMG_0721.jpg",
-          "w": 2400,
-          "h": 1800,
-          "live": true
-        },
-        {
-          "type": "video",
-          "src": "media/jeju/IMG_0850.mp4",
-          "poster": "media/jeju/IMG_0850.jpg",
-          "w": 2400,
-          "h": 1800,
-          "live": true
+          "h": 1600,
+          "time": "2025-07-24 07:11:37 +0000"
         },
         {
           "type": "video",
@@ -167,7 +88,29 @@
           "poster": "media/jeju/IMG_8979.jpg",
           "w": 2400,
           "h": 1800,
-          "live": true
+          "live": true,
+          "time": "2025-07-24 08:13:51 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF0400.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2025-07-24 08:18:04 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF0421.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2025-07-24 09:22:05 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF0532.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2025-07-24 10:20:30 +0000"
         },
         {
           "type": "video",
@@ -175,7 +118,8 @@
           "poster": "media/jeju/IMG_9009.jpg",
           "w": 2400,
           "h": 1800,
-          "live": true
+          "live": true,
+          "time": "2025-07-24 11:03:07 +0000"
         },
         {
           "type": "video",
@@ -183,7 +127,15 @@
           "poster": "media/jeju/IMG_9021.jpg",
           "w": 2400,
           "h": 1800,
-          "live": true
+          "live": true,
+          "time": "2025-07-24 13:19:46 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF0612.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2025-07-25 04:35:13 +0000"
         },
         {
           "type": "video",
@@ -191,7 +143,63 @@
           "poster": "media/jeju/IMG_9046.jpg",
           "w": 2400,
           "h": 1800,
-          "live": true
+          "live": true,
+          "time": "2025-07-25 05:03:59 +0000"
+        },
+        {
+          "type": "video",
+          "src": "media/jeju/IMG_0693.mp4",
+          "poster": "media/jeju/IMG_0693.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true,
+          "time": "2025-07-25 05:38:04 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF0754.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2025-07-25 07:27:49 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF0791.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2025-07-25 07:40:25 +0000"
+        },
+        {
+          "type": "video",
+          "src": "media/jeju/IMG_0707.mp4",
+          "poster": "media/jeju/IMG_0707.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true,
+          "time": "2025-07-25 07:44:26 +0000"
+        },
+        {
+          "type": "video",
+          "src": "media/jeju/IMG_0721.mp4",
+          "poster": "media/jeju/IMG_0721.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true,
+          "time": "2025-07-25 07:53:38 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF0969.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2025-07-25 09:44:04 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF1036.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2025-07-25 10:22:27 +0000"
         },
         {
           "type": "video",
@@ -199,7 +207,24 @@
           "poster": "media/jeju/IMG_9075.jpg",
           "w": 2400,
           "h": 1800,
-          "live": true
+          "live": true,
+          "time": "2025-07-25 12:56:42 +0000"
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF1066.jpg",
+          "w": 2400,
+          "h": 1600,
+          "time": "2025-07-25 13:37:58 +0000"
+        },
+        {
+          "type": "video",
+          "src": "media/jeju/IMG_0850.mp4",
+          "poster": "media/jeju/IMG_0850.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true,
+          "time": "2025-07-26 08:04:11 +0000"
         }
       ]
     }

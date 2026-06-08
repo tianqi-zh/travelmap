@@ -116,6 +116,17 @@ def video_size(path):
     return w, h
 
 
+def capture_time(path):
+    """读取文件的拍摄/创建时间（mdls，返回 UTC 字符串可直接字典序排序）。读不到返回空串。"""
+    res = subprocess.run(
+        ["mdls", "-raw", "-name", "kMDItemContentCreationDate", path],
+        stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    val = res.stdout.decode("utf-8", "ignore").strip()
+    if not val or val == "(null)":
+        return ""
+    return val
+
+
 def mov_to_mp4(src, dst, max_w, crf):
     """MOV -> web MP4：只取主视频流 + 第一条音频，H.264 yuv420p faststart。"""
     os.makedirs(os.path.dirname(dst), exist_ok=True)
@@ -215,11 +226,13 @@ def build_city(city_id):
             w, h = image_size(poster)
             if not w:
                 w, h = video_size(mp4)
+            # Live 用静图的拍摄时间（拍照那一刻），长视频用视频时间
+            t = capture_time(imgs[0] if live else src_v)
             items.append({
                 "type": "video",
                 "src": os.path.relpath(mp4, ROOT).replace(os.sep, "/"),
                 "poster": os.path.relpath(poster, ROOT).replace(os.sep, "/"),
-                "w": w, "h": h, "live": live,
+                "w": w, "h": h, "live": live, "time": t,
             })
         elif imgs:
             # 纯图片条目
@@ -232,8 +245,11 @@ def build_city(city_id):
             items.append({
                 "type": "image",
                 "src": os.path.relpath(jpg, ROOT).replace(os.sep, "/"),
-                "w": w, "h": h,
+                "w": w, "h": h, "time": capture_time(src_i),
             })
+
+    # 按拍摄时间从早到晚排序；读不到时间的排在最后，再按文件名稳定
+    items.sort(key=lambda it: (it.get("time") or "9999", it["src"]))
 
     if not items:
         print("  （无可用素材）", city_id)
