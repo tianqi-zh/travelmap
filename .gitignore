@@ -1,0 +1,12 @@
+# 原始素材（224MB，不上传，仅本地保留）
+media/raw/
+
+# 构建产物
+dist/
+*.zip
+
+# 系统/缓存
+.DS_Store
+__pycache__/
+*.pyc
+.venv/

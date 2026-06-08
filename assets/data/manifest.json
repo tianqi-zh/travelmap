@@ -1,0 +1,171 @@
+{
+  "_comment": "由 build.py 生成，请勿手改。加新地点：把素材放进 media/raw/<city>/，在 build.py 的 PLACES 加坐标，重跑。",
+  "places": [
+    {
+      "id": "dalian",
+      "name": "大连",
+      "nameEn": "Dalian",
+      "lat": 38.914,
+      "lng": 121.615,
+      "cover": "media/dalian/204572.jpg",
+      "count": 6,
+      "items": [
+        {
+          "type": "image",
+          "src": "media/dalian/204572.jpg",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "type": "video",
+          "src": "media/dalian/IMG_6412.mp4",
+          "poster": "media/dalian/IMG_6412.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true
+        },
+        {
+          "type": "video",
+          "src": "media/dalian/IMG_6505.mp4",
+          "poster": "media/dalian/IMG_6505.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true
+        },
+        {
+          "type": "video",
+          "src": "media/dalian/IMG_6522.mp4",
+          "poster": "media/dalian/IMG_6522.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true
+        },
+        {
+          "type": "video",
+          "src": "media/dalian/IMG_6545.mp4",
+          "poster": "media/dalian/IMG_6545.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true
+        },
+        {
+          "type": "video",
+          "src": "media/dalian/IMG_6572.mp4",
+          "poster": "media/dalian/IMG_6572.jpg",
+          "w": 1080,
+          "h": 1920,
+          "live": false
+        }
+      ]
+    },
+    {
+      "id": "jeju",
+      "name": "济州",
+      "nameEn": "Jeju",
+      "lat": 33.499,
+      "lng": 126.531,
+      "cover": "media/jeju/DSCF0392.jpg",
+      "count": 14,
+      "items": [
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF0392.jpg",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF0421.jpg",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF0532.jpg",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF0612.jpg",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF0754.jpg",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF0969.jpg",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "type": "image",
+          "src": "media/jeju/DSCF1036.jpg",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "type": "video",
+          "src": "media/jeju/IMG_0693.mp4",
+          "poster": "media/jeju/IMG_0693.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true
+        },
+        {
+          "type": "video",
+          "src": "media/jeju/IMG_0707.mp4",
+          "poster": "media/jeju/IMG_0707.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true
+        },
+        {
+          "type": "video",
+          "src": "media/jeju/IMG_0721.mp4",
+          "poster": "media/jeju/IMG_0721.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true
+        },
+        {
+          "type": "video",
+          "src": "media/jeju/IMG_0850.mp4",
+          "poster": "media/jeju/IMG_0850.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true
+        },
+        {
+          "type": "video",
+          "src": "media/jeju/IMG_8979.mp4",
+          "poster": "media/jeju/IMG_8979.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true
+        },
+        {
+          "type": "video",
+          "src": "media/jeju/IMG_9021.mp4",
+          "poster": "media/jeju/IMG_9021.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true
+        },
+        {
+          "type": "video",
+          "src": "media/jeju/IMG_9046.mp4",
+          "poster": "media/jeju/IMG_9046.jpg",
+          "w": 2400,
+          "h": 1800,
+          "live": true
+        }
+      ]
+    }
+  ]
+}

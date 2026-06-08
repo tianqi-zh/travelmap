@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alexia & Alan · 旅行地图</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <span class="brand">Alexia &amp; Alan</span>
+    <span class="tagline">places we've been</span>
+  </header>
+
+  <main class="map-stage">
+    <svg id="world" viewBox="0 40 2000 760" preserveAspectRatio="xMidYMid meet"
+         aria-label="世界地图">
+      <g id="countries"></g>
+      <g id="markers"></g>
+    </svg>
+  </main>
+
+  <nav class="places-list" id="placesList"></nav>
+
+  <script src="assets/js/map.js"></script>
+</body>
+</html>
