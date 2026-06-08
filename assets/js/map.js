@@ -81,10 +81,7 @@
       item.innerHTML =
         '<span class="swatch"></span>' +
         '<span class="info">' +
-          '<span class="row1">' +
-            '<span class="name">' + p.name + '</span>' +
-            '<span class="cnt">' + p.count + '</span>' +
-          '</span>' +
+          '<span class="name">' + p.name + '</span>' +
           (p.dates ? '<span class="date">' + p.dates + '</span>' : '') +
         '</span>';
       item.addEventListener("click", () => go(p.id));
